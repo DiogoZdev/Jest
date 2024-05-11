@@ -2,9 +2,10 @@
   "name": "diogozdev-jest",
   "version": "1.0.0",
   "description": "a project for jest testing documentation",
-  "main": "index.js",
+  "exports": "./index.js",
+  "type": "module",
   "scripts": {
-    "test": "test"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "repository": {
     "type": "git",
