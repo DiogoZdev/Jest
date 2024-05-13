@@ -42,9 +42,9 @@ Preparing the tests before the development has some advantages:
 
 ## Next documenting steps
 
-- [x] Testing Functions
-- [x] Testing Classes
-- [x] Testing UseCases
+- [x] [Testing Functions](https://github.com/DiogoZdev/Jest/tree/main/src/functions)
+- [x] [Testing Classes](https://github.com/DiogoZdev/Jest/tree/main/src/simple_classes)
+- [x] [Testing UseCases](https://github.com/DiogoZdev/Jest/tree/main/src/use_cases)
 - [ ] Testing Endpoints
 - [ ] Checking Test Coverage
 - [ ] Checking a specific file coverage
