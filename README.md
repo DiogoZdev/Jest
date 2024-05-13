@@ -43,7 +43,8 @@ Preparing the tests before the development has some advantages:
 ## Next documenting steps
 
 - [x] Testing Functions
-- [ ] Testing Classes
+- [x] Testing Classes
+- [x] Testing UseCases
 - [ ] Testing Endpoints
 - [ ] Checking Test Coverage
 - [ ] Checking a specific file coverage
