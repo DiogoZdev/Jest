@@ -1,3 +1,5 @@
+[<- back to Home](https://github.com/DiogoZdev/Jest)
+
 ## Testing a function
 
 Testing a function is as simple as describing expectations for the outcome of an event.
@@ -36,3 +38,5 @@ Wrapping up:
 - Setting the prerequirements
 - Triggering the event to be tested
 - Comparing expectations and outcomes
+
+[<- back to Home](https://github.com/DiogoZdev/Jest)

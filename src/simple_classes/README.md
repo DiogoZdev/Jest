@@ -1,3 +1,5 @@
+[<- back to Home](https://github.com/DiogoZdev/Jest)
+
 ## Testing a class
 
 Testing a simple class is very similar to testing a function.
@@ -37,3 +39,5 @@ Wrapping up:
 - Validate good and bad scenarios
 - Validate internal class logic (validate what happens, not how)
 - If a class imports a helper function, that function doesn't have to be tested again
+
+[<- back to Home](https://github.com/DiogoZdev/Jest)

@@ -1,3 +1,5 @@
+[<- back to Home](https://github.com/DiogoZdev/Jest)
+
 ## Testing UseCases
 
 A UseCase often presents a more complex scenario, joining a few complementary actions to execute a complete action.
@@ -38,3 +40,5 @@ Wrapping up:
 - with jest.fn() we can mock functions, no matter their input or output
 - with jest.clearAllMocks() we can reset the mocks before or after each test to reset calls and counts
 - now we can validate how our UseCase interacts with its dependencies
+
+[<- back to Home](https://github.com/DiogoZdev/Jest)
