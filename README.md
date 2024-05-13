@@ -14,7 +14,13 @@ ESM (EcmaScript Modules) is used and configured for testing.
 Clone the repo
 
 ```
-git clone https://github.com/DiogoZdev/Jest
+git clone https://github.com/DiogoZdev/Jest && cd Jest
+```
+
+Installing dependencies
+
+```
+npm install
 ```
 
 executing the tests

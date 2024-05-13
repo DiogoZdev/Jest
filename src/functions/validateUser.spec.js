@@ -1,16 +1,11 @@
 import { validateUser } from "./validateUser";
+import { userInput } from "../mocks/userInput.mock";
 
 describe("validateUser", () => {
-  const userInput = {
-    username: "Diogo",
-    email: "mail@mail.com",
-    password: "123",
-    passwordConfirmation: "123",
-    birthdate: "2000-01-01",
-  };
+  const input = userInput;
 
   it("should return true for good input", () => {
-    const result = validateUser(userInput);
+    const result = validateUser(input);
     expect(result.isValid).toBe(true);
     expect(result.errors).toHaveLength(0);
   });
@@ -24,7 +19,7 @@ describe("validateUser", () => {
 
   it("should return error for bad email", () => {
     const result = validateUser({
-      ...userInput,
+      ...input,
       email: "m@il",
     });
 
@@ -34,7 +29,7 @@ describe("validateUser", () => {
 
   it("should return error for mismatched passwords", () => {
     const result = validateUser({
-      ...userInput,
+      ...input,
       passwordConfirmation: "321",
     });
 

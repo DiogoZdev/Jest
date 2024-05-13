@@ -3,6 +3,8 @@
 Testing a function is as simple as describing expectations for the outcome of an event.
 Breaking down the example test for a function we have:
 
+`validateUser.example.spec.ts`
+
 ```js
 // here I describe what function I'm testing
 describe("validateUser", () => {
