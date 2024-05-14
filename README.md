@@ -23,6 +23,12 @@ Installing dependencies
 npm install
 ```
 
+executing the app
+
+```
+npm start
+```
+
 executing the tests
 
 ```
@@ -40,12 +46,12 @@ Preparing the tests before the development has some advantages:
 - TDD removes the cognitive burden of remembering all the must-follow rules and requirements while coding. Developers can focus solely on the coding process, knowing that the tests will ensure compliance with the defined specifications.
 - Developers can receive real-time feedback on the correctness of their implementation. As they write code, they can immediately see whether it passes the pre-defined tests, enabling rapid iteration and debugging.
 
-## Next documenting steps
+## Docs and next steps
 
 - [x] [Testing Functions](https://github.com/DiogoZdev/Jest/tree/main/src/functions)
 - [x] [Testing Classes](https://github.com/DiogoZdev/Jest/tree/main/src/simple_classes)
 - [x] [Testing UseCases](https://github.com/DiogoZdev/Jest/tree/main/src/use_cases)
-- [ ] Testing Endpoints
+- [x] [Testing Endpoints](https://github.com/DiogoZdev/Jest/tree/main/src/endpoints)
 - [ ] Checking Test Coverage
 - [ ] Checking a specific file coverage
 - [ ] About the environment
